@@ -6,6 +6,13 @@ ul {
     width: 100%;
     background-color: #424242;
 }
+.riskul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    width: 100%;
+    background-color: #424242;
+}
 .navli  {display: inline-block;}
 
 li a {
@@ -59,6 +66,13 @@ li a:hover {
     display: block;
 }
 
+.riskheader {
+    padding: 1em;
+    color: white;
+    background-color:red;
+    clear: left;
+    text-align: right;
+}
 .dropdown:hover .dropbtn {
     background-color: black;
 }
