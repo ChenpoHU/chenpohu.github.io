@@ -4,25 +4,28 @@ ul {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #424242;
 }
 .navli  {display: inline-block;}
 
 li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
+
     text-decoration: none;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: #555;
+    background-color: black;
     color: white;
 }
 
 .dropbtn {
-    background-color: black;
+    background-color: #424242;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -38,26 +41,26 @@ li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: darkgrey;
-    min-width: 160px;
+    background-color: #424242;
+    min-width: 320px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: black;}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: black;
 }
 
 .imgoi{
@@ -75,10 +78,17 @@ div.container {
 }  
        
 
-header, footer {
+header {
+    padding: 1em;
+    color: Black;
+    background-color:#bbdefb;
+    clear: left;
+    text-align: right;
+}
+footer {
     padding: 1em;
     color: white;
-    background-color: #FFB6C1;
+    background-color:#bdbdbd;
     clear: left;
     text-align: center;
 }
@@ -104,7 +114,7 @@ article   {
     overflow: hidden;}
           
           
-body  { background-color: azure; border-top-color: aquamarine}
+body  { background-color: none; border-top-color: none}
           
           
 p    {color: black; } 
@@ -155,7 +165,8 @@ th {
 .textcenter {
     text-align: center;
 }
-
+h1 { font-family: verdana;
+}
 h3 {
     font-family: Montserrat;
     font-size: 21px;
@@ -166,17 +177,11 @@ h3 {
 }
 
 
-
-:hov
-
-.cls
 
 element.style {
     margin-bottom: 0px;
 }
-.textcenter {
-    text-align: center;
-}
+
 h3 {
     font-family: Montserrat;
     font-size: 21px;
@@ -185,20 +190,8 @@ h3 {
     letter-spacing: 0px;
     color: #333333;
 }
-h3 {
-    font-size: 21px;
-    line-height: 125%;
-    font-family: "Montserrat",sans-serif;
-    font-weight: normal;
-}
-h1, h2, h3, h4, h5, h6 {
-    color: #333;
-    margin: 0 0 20px;
-    padding: 0;
-    -webkit-font-smoothing: antialiased!important;
-    font-family: "Open Sans", sans-serif;
-    font-weight: normal;
-}
+
+
 
 element.style {
     margin-bottom: 0px;
