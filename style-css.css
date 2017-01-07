@@ -1,0 +1,224 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.navli  {display: inline-block;}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darkgrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.imgoi{
+    display: block;
+    margin: 0 auto;
+}
+
+//width in li a: need consideration, because now the width in nav is differient.
+
+
+div.container {
+    width: 100%;
+    border: 2px bisque;
+    float:center;
+}  
+       
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #FFB6C1;
+    clear: left;
+    text-align: center;
+}
+          
+         
+
+.city {
+float: left;
+margin: 5px;
+padding: 15px;
+width: 300px;
+height: 300px;
+border: 1px solid black;
+} 
+
+
+          
+          
+article   {
+    margin-left: 170px;
+    border-left: 1px solid ;
+    padding: 1em;
+    overflow: hidden;}
+          
+          
+body  { background-color: azure; border-top-color: aquamarine}
+          
+          
+p    {color: black; } 
+
+//removed the border:2px solid powderblue in p
+          
+
+          
+iframe {border:2px; color:#FFE4E1; padding-top: 30px; padding-bottom: 60px; padding-right: 30px; width: 560px; height:315px}
+         
+#bookmark { color:coral; background-color:cornsilk; border-top-color: aquamarine}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption {text-decoration: chocolate; text-decoration: dashed }
+
+td {
+    background-color: cornsilk
+} 
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: left; background-color: bisque;
+}
+
+  .floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid;  
+    
+}
+.gap {
+    display: block;
+    width: 100%;
+    margin: 0;
+    height: 20px;
+    line-height: 20px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+
+
+:hov
+
+.cls
+
+element.style {
+    margin-bottom: 0px;
+}
+.textcenter {
+    text-align: center;
+}
+h3 {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+h3 {
+    font-size: 21px;
+    line-height: 125%;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin: 0 0 20px;
+    padding: 0;
+    -webkit-font-smoothing: antialiased!important;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+}
+
+element.style {
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24.10.2016, 19:56:57
+    Author     : Chenpo
+*/
+
