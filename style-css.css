@@ -157,24 +157,25 @@ iframe {border:2px; color:#FFE4E1; padding-top: 30px; padding-bottom: 60px; padd
          
 #bookmark { color:coral; background-color:cornsilk; border-top-color: aquamarine}
 
-table, th, td {
-    border: 1px solid black;
+table {
+    font-family: arial, sans-serif;
     border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 caption {text-decoration: chocolate; text-decoration: dashed }
 
-td {
-    background-color: cornsilk
-} 
 
-th, td {
-    padding: 15px;
-}
-
-th {
-    text-align: left; background-color: bisque;
-}
 
   .floating-box {
     display: inline-block;
@@ -228,6 +229,14 @@ element.style {
 }
 
 h4 {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    color: #3d3d3d;
+}
+.pre  {
     font-family: Montserrat;
     font-size: 15px;
     font-weight: 400;
